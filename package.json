@@ -1,0 +1,42 @@
+{
+  "name": "phpoffline",
+  "version": "1.0.0",
+  "description": "Frontend service worker, WebAssembly bridge, and cache management for the PHPOffline library.",
+  "main": "assets/js/offline-setup.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:sw": "workbox generateSW workbox-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "php",
+    "offline",
+    "offline-first",
+    "wasm",
+    "php-wasm",
+    "workbox",
+    "service-worker",
+    "vypo",
+    "cdn-downloader"
+  ],
+  "author": "Nasim Akhtab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasim-akhtab/phpoffline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nasim-akhtab/phpoffline/issues"
+  },
+  "dependencies": {
+    "@php-wasm/web": "^0.0.9"
+  },
+  "devDependencies": {
+    "workbox-build": "^7.3.0",
+    "workbox-cli": "^7.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

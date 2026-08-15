@@ -1,0 +1,35 @@
+{
+    "name": "nasim-akhtab/phpoffline",
+    "description": "A robust PHP library to transform any PHP website into a fully offline-capable application using Service Workers, PHP-WASM, and a native CDN Auto-Downloader.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "offline",
+        "offline-first",
+        "php-wasm",
+        "service-worker",
+        "cdn-downloader",
+        "cache",
+        "vypo"
+    ],
+    "homepage": "https://github.com/NasimDev95/phpoffline",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nasim Akhtab",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-dom": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPOffline\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
